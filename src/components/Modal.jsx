@@ -10,7 +10,7 @@ export default class Modal extends Component {
       <ProductConsumer>
         {(value) => {
           const { modalOpen, closeModal } = value;
-          const { id, title, price, img } = value.modalProduct;
+          const { title, price, img } = value.modalProduct;
 
           //   console.log(typeof modalOpen);
         //   console.log(value); 
